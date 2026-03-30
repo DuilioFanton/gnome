@@ -1,5 +1,7 @@
 # Catalina Dynamic Wallpaper (GNOME)
 
+Truly dynamic sunrise/sunset wallpaper for GNOME.
+
 Wallpaper dinâmico para GNOME que recalcula os horários do slideshow com base em nascer/pôr do sol da sua localização atual.
 
 ## Como funciona
