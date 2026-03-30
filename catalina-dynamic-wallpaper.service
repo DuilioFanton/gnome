@@ -1,0 +1,8 @@
+[Unit]
+Description=Update Catalina wallpaper schedule from sunrise/sunset
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env python3 /home/duiliofanton/.local/share/backgrounds/gnome/update_catalina_wallpaper.py

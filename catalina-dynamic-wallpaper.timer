@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh Catalina dynamic wallpaper timings
+
+[Timer]
+OnBootSec=2min
+OnCalendar=*-*-* 00/6:05:00
+RandomizedDelaySec=5min
+Persistent=true
+Unit=catalina-dynamic-wallpaper.service
+
+[Install]
+WantedBy=timers.target
