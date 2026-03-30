@@ -1,0 +1,6 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Test/cache tooling
+.pytest_cache/
